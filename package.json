@@ -1,14 +1,14 @@
 {
-  "name": "laravel-mix-workbox",
-  "version": "0.1.4",
-  "description": "Laravel Mix extension for Workbox",
+  "name": "@mahpooya/laravel-mix-workbox",
+  "version": "0.1.5",
+  "description": "Laravel Mix extension for Workbox (Fork for update dependencies)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/speniti/laravel-mix-workbox.git"
+    "url": "git+https://github.com/mahpooya/laravel-mix-workbox.git"
   },
   "keywords": [
     "laravel",
@@ -17,12 +17,15 @@
     "workbox"
   ],
   "author": "Simone Peniti",
+  "contributors": [
+    "Mahpooya Damavand <mahpooya@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/speniti/laravel-mix-workbox/issues"
   },
-  "homepage": "https://github.com/speniti/laravel-mix-workbox#readme",
+  "homepage": "https://github.com/mahpooya/laravel-mix-workbox#readme",
   "peerDependencies": {
-    "laravel-mix": "^4.0.15 || ^5.0.0 || ^6.0.0"
+    "laravel-mix": "npm:@mahpooya/laravel-mix@^6.0.50"
   }
 }
