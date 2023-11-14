@@ -34,6 +34,16 @@ class Workbox {
      *
      */
     register(config = {}) {
+        //TODO: remove this:
+        console.log("laravel-mix-workbox index.js > register mahpooya logs");
+        console.log(
+            JSON.stringify({
+                a: 'try to this.pluginName = this.caller...',
+                b: 'try to this.pluginName = this.caller...',
+                thispluginName: this.caller[0].toUpperCase() + this.caller.slice(1),
+                thisconfig: config,
+            }),
+        );
         this.pluginName = this.caller[0].toUpperCase() + this.caller.slice(1);
 
         this.config = config;
