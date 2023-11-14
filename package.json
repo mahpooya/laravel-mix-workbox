@@ -1,6 +1,6 @@
 {
   "name": "@mahpooya/laravel-mix-workbox",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Laravel Mix extension for Workbox (Fork for update dependencies)",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/mahpooya/laravel-mix-workbox#readme",
   "peerDependencies": {
-    "laravel-mix": "npm:@mahpooya/laravel-mix@^6.0.57"
+    "laravel-mix": "npm:@mahpooya/laravel-mix@^6.0.58"
   }
 }
